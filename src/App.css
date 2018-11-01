@@ -1,32 +1,228 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+* {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff !important;
+  height: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+button {
+  background: #222;
+  color: white !important;
+  padding: 10px;
+  width: 200px;
+  border: 2px grey solid;
+  border-radius: 5px;
+  font-weight: 900;
+  text-transform: uppercase !important;
+}
+
+.landing-panel {
+  background-image: url("https://i.imgur.com/5NhCyJ7.jpg");
+  background-color: #cccccc;
+}
+
+.header-font, .landing-button, .logo {
+  font-family: 'Poppins', sans-serif;
+}
+
+.body-font, .landing-body, .formDiv {
+  font-family: 'Poppins', sans-serif;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 60px;
+  text-shadow: 3px 3px #000;
+  color: #fff !important;
+}
+
+.landing-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+ul {
+  list-style: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-header {
+  overflow: hidden;
+  background-color: #124c8fb8;
+  color: #fff !important;
+  height: 80px;
+  text-decoration: none;
+  padding: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+.nav-header a {
+  color: #fff !important;
+}
+.nav-header a:hover {
+  font-weight: 900;
+  text-decoration: none !important;
+}
+.nav-header .header-right {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 16px;
+}
+
+.fund-listing {
+  border-bottom: 2px solid gainsboro;
+  border-top: 2px solid gainsboro;
+  padding: 20px;
+  padding-bottom: 30px;
+  font-family: 'Poppins', sans-serif;
+}
+.fund-listing h3 {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+.center-elements {
+  margin: auto;
+  width: 50%;
+}
+
+.top-margin {
+  margin-top: 10%;
+}
+
+.border-box {
+  border: 2px solid black;
+}
+
+.padding-left {
+  padding-left: 5%;
+}
+
+.bodyDiv {
+  width: 100%;
+  margin-top: 20px;
+  background: #fff;
+  padding: 15px 50px 50px;
+}
+
+.formDiv {
+  margin-top: 50px;
+}
+.formDiv .form-field {
+  margin-bottom: 20px;
+}
+.formDiv .form-field p {
+  font-size: 16px;
+  font-weight: 900;
+}
+.formDiv .form-field input, .formDiv .form-field textarea, .formDiv .form-field select {
+  width: 50%;
+  border-radius: 5px;
+  border: 2px solid #909090;
+  padding: 5px;
+}
+.formDiv .form-field #date_goal {
+  width: 150%;
+}
+
+#slide1, #slide2 {
+  width: 100%;
+}
+
+#slide1 {
+  background: url("https://i.imgur.com/QGEjymF.jpg") 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-size: cover;
+}
+
+.content {
+  margin: 0 auto;
+  width: 960px;
+}
+
+#header {
+  width: 100%;
+  background-color: rgba(18, 76, 143, 0.722);
+  color: #fff !important;
+  height: 80px;
+  position: fixed;
+}
+
+.solidHeader {
+  background-color: #333 !important;
+  position: relative !important;
+}
+
+.divider {
+  width: 40%;
+  height: 10px;
+  background: #fff;
+  box-shadow: 2px 1px 0px 0px #000;
+}
+
+.landing-button {
+  border: 1px solid black;
+  font-weight: 900;
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+}
+
+.landing-body {
+  font-size: 20px;
+  text-shadow: 1px 1px #000;
+}
+
+#logo a {
+  color: #fff;
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+#nav {
+  width: 410px;
+  margin-top: 30px;
+  float: right;
+}
+#nav ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+  list-style: none;
+}
+#nav ul li a {
+  float: left;
+  padding-left: 20px;
+  color: #fff !important;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 15px;
+}
+#nav ul li a:hover {
+  font-weight: 900;
+}
+
+#slide2 {
+  background: #000;
+  height: 50px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
